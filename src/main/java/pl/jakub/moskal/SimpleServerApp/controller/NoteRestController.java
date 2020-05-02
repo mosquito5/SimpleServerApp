@@ -1,9 +1,7 @@
 package pl.jakub.moskal.SimpleServerApp.controller;
 
 import lombok.AllArgsConstructor;
-import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pl.jakub.moskal.SimpleServerApp.model.Note;
@@ -12,7 +10,8 @@ import pl.jakub.moskal.SimpleServerApp.service.NoteServiceImpl;
 import java.util.List;
 import java.util.Optional;
 
-@RestController("/note")
+@RestController
+@RequestMapping(value = "/note")
 @AllArgsConstructor
 public class NoteRestController {
 
