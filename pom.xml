@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.jakub.moskal</groupId>
-    <artifactId>simple_server_app</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>SimpleServerApp</name>
+    <artifactId>super_server_app</artifactId>
+    <version>0.0.1</version>
+    <name>SuperServerApp</name>
     <description>Simple server app that handle xml files and save to db</description>
 
     <properties>
